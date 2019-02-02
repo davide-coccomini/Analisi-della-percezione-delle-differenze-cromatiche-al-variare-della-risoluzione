@@ -85,7 +85,12 @@
         \tableofcontents
         \newpage
         \section{Introduzione}
-        \lipsum[1-3]
+        L'individuazione delle differenze percettive tra due o più immagini è uno dei grandi problemi dell'industria della colorimetria moderna che ha la necessità di emulare il 
+        comportamento umano nella percezione dei colori. E' infatti spesso necessario riprodurre un materiale o un tessuto partendo da un originale, nel tentativo di emularlo il più fedelmente possibile. 
+        Per fare ciò, sono stati realizzati macchinari in grado di acquisire immagini ad alta definizione dei soggetti originali e di quelli riprodotti così da poterli confrontare attraverso indici matematici più o meno precisi (ad esempio SSIM) 
+        nel tentativo di identificare eventuali differenze percettive. Ovviamente, sia per l'acquisizione che per il confronto tra immagini ad alta definizione, sono necessari tempi e costi non indifferenti che sarebbero abbattuti se questi processi potessero avvenire a risoluzioni più basse.
+        Lo scopo di questa ricerca è quindi quello di realizzare una rete neurale che sia in grado di identificare le differenze tra le immagini e sfruttarla per capire qual è la minima risoluzione e qualità che le immagini devono possedere affinché queste differenze siano individuabili.
+    
         \newpage
         \section{Colorimetria}
         La colorimetria è la disciplina che si occupa di normalizzare la misurazione del colore attraverso lo studio dei modelli di colore.
@@ -250,14 +255,7 @@
     Dopo l’addestramento la rete viene testata controllandone il comportamento su un insieme di dati, detto test set, non utilizzati durante la fase di training. La fase di test ha quindi lo scopo 
     di valutare la capacità di generalizzazione della rete neurale.
 
-
-    \section{Obiettivo}
-    L'individuazione delle differenze percettive tra due o più immagini è uno dei grandi problemi dell'industria della colorimetria moderna che ha la necessità di emulare il 
-    comportamento umano nella percezione dei colori. E' infatti spesso necessario riprodurre un materiale o un tessuto partendo da un originale, nel tentativo di emularlo il più fedelmente possibile. 
-    Per fare ciò, sono stati realizzati macchinari in grado di acquisire immagini ad alta definizione dei soggetti originali e di quelli riprodotti così da poterli confrontare attraverso indici matematici più o meno precisi (ad esempio SSIM) 
-    nel tentativo di identificare eventuali differenze percettive. Ovviamente, sia per l'acquisizione che per il confronto tra immagini ad alta definizione, sono necessari tempi e costi non indifferenti che sarebbero abbattuti se questi processi potessero avvenire a risoluzioni più basse.
-    Lo scopo di questa ricerca è quindi quello di realizzare una rete neurale che sia in grado di identificare le differenze tra le immagini e sfruttarla per capire qual è la minima risoluzione e qualità che le immagini devono possedere affinché queste differenze siano individuabili.
-
+  
     \newpage
 
     \section{Svolgimento}
