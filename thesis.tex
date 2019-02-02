@@ -38,12 +38,14 @@
         stringstyle=\color{mauve},
         tabsize=3
     }
-        
+    
     \author{
-        \textbf{Candidato} \\
-        Coccomini Davide \\\\
-        \textbf{Relatori}\\
-        Pistolesi Francesco, Lazzerini Beatrice \\
+        \rule{0in}{0pt}\textbf{\Large Candidato} \\
+        \rule{0in}{0pt}Coccomini Davide \\
+        \and
+        \rule{1.5in}{0pt}\textbf{\Large Relatori}\\
+        \rule{1.5in}{0pt}Pistolesi Francesco\\
+        \rule{1.5in}{0pt}Lazzerini Beatrice \\
     }
 
 
@@ -53,11 +55,11 @@
         \includegraphics[scale=0.4]{logo}\\[\bigskipamount]
     }
     \posttitle{\end{center}}
-    \title{\textbf{UNIVERSITA DEGLI STUDI DI PISA} \\[0.4in]
+    \title{\textbf{UNIVERSITÀ DEGLI STUDI DI PISA} \\[0.4in]
     Scuola di Ingegneria \\
     Dipartimento di Ingegneria dell’Informazione \\
     A.A. 2018/2019\\[0.7in]
-    Sviluppo di una rete neurale per il riconoscimento delle differenze percettive su un set di immagini alla ricerca della minima qualità necessaria per l'indivudazione\\[0.5in]}
+    Sviluppo di una rete neurale per il riconoscimento delle differenze percettive su un set di immagini alla ricerca della minima qualità necessaria per l'individuazione\\[0.8in]}
     \date{}
     
     \definecolor{mygreen}{rgb}{0,0.6,0}
@@ -86,7 +88,7 @@
         \newpage
         \section{Introduzione}
         L'individuazione delle differenze percettive tra due o più immagini è uno dei grandi problemi dell'industria della colorimetria moderna che ha la necessità di emulare il 
-        comportamento umano nella percezione dei colori. E' infatti spesso necessario riprodurre un materiale o un tessuto partendo da un originale, nel tentativo di emularlo il più fedelmente possibile. 
+        comportamento umano nella percezione dei colori. È infatti spesso necessario riprodurre un materiale o un tessuto partendo da un originale, nel tentativo di emularlo il più fedelmente possibile. 
         Per fare ciò, sono stati realizzati macchinari in grado di acquisire immagini ad alta definizione dei soggetti originali e di quelli riprodotti così da poterli confrontare attraverso indici matematici più o meno precisi (ad esempio SSIM) 
         nel tentativo di identificare eventuali differenze percettive. Ovviamente, sia per l'acquisizione che per il confronto tra immagini ad alta definizione, sono necessari tempi e costi non indifferenti che sarebbero abbattuti se questi processi potessero avvenire a risoluzioni più basse.
         Lo scopo di questa ricerca è quindi quello di realizzare una rete neurale che sia in grado di identificare le differenze tra le immagini e sfruttarla per capire qual è la minima risoluzione e qualità che le immagini devono possedere affinché queste differenze siano individuabili.
@@ -107,7 +109,7 @@
             \caption{"Lo spettro visibile"}
         \end{figure}
         \newpage
-        \subsection{Percezione del colore}
+        \subsubsection{Percezione del colore}
         Il colore nasce dalla luce. La luce che colpisce un oggetto viene parzialmente assorbita a
         seconda del materiale che lo compone. La parte non assorbita viene riflessa e trasmessa ai recettori cromatici
         all’interno dell’occhio umano. Questi ultimi trasformano la luce assorbita in impulsi che
@@ -118,7 +120,7 @@
         differente. Tale fenomeno può essere ricondotto sia al fatto che non esistono mai due occhi
         uguali tra loro sia al fatto che l’interpretazione del colore varia da individuo ad individuo.
         Perfino la stessa persona può percepire differentemente il colore in momenti diversi ed in base
-        allo stato d’animo. E' quindi molto complesso definire in maniera oggettiva un colore.
+        allo stato d’animo. È quindi molto complesso definire in maniera oggettiva un colore.
 
         \begin{figure}[h]
             \centering
@@ -126,9 +128,14 @@
             \caption{"Percezione del colore"}
         \end{figure}
         \newpage
-        \subsection{Modello CIE XYZ}
+        \subsection{Spazio colore}
+        Gli spazi colore sono schemi di rappresentazione dei colori. Ognuno di essi si basa su alcuni parametri
+        e facendoli variare riesce a rappresentare un numero più o meno grande di colori. Esistono numerosi spazi colore
+        che, in base alle loro peculiarità, si prestano meglio ad uno specifico utilizzo piuttosto che ad un altro.
+       
+        \subsubsection{Modello CIE XYZ}
         Il modello CIE XYZ rappresenta tutti i colori caratterizzati da tre parametri: luminosità, tinta e purezza, rappresentati attraverso un solido. 
-        Del solido viene solitamente rappresentata soltanto la sezione secondo il piano XY, in cui X ed Y indicano la cromaticità (tinta e purezza) mentre la luminanza non viene rappresentata.
+        Del solido viene solitamente rappresentata soltanto la sezione secondo il piano XY, in cui X ed Y indicano la cromaticità (tinta e purezza) mentre la luminosità non viene rappresentata.
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.2]{CIEXYZ.png}
@@ -136,18 +143,17 @@
         \end{figure}
         \\Questo spazio colore si basa sui valori di tristimolo, cioè dei parametri che definiscono il modo in cui l'essere umano percepisce i colori. 
         I valori tristimolo di un colore con una distribuzione di potenza spettrale $I(\lambda)$  sono date in termini di un osservatore standard da:
-
-        \begin{itemize}      
-            \item[] \Large $X = \bigint_0^\infty I(\lambda)\,\overline{x}(\lambda)\,d\lambda$
-            \item[] \Large $Y = \bigint_0^\infty I(\lambda)\,\overline{y}(\lambda)\,d\lambda$
-            \item[] \Large $Z = \bigint_0^\infty I(\lambda)\,\overline{z}(\lambda)\,d\lambda$
-        \end{itemize}
+        \\[0.2in]
+            $\textbf{X}=\bigint_0^\infty I(\lambda)\,\overline{x}(\lambda)\,d\lambda$;
+            $\textbf{Y}=\bigint_0^\infty I(\lambda)\,\overline{y}(\lambda)\,d\lambda$;
+            $\textbf{Z}=\bigint_0^\infty I(\lambda)\,\overline{z}(\lambda)\,d\lambda$;
+      
         
     
         \newpage
 
-        \subsection{Modello CIE L*a*b*}
-        Il modello CIE L*a*b*, è un'evoluzione del modello CIE XYZ. E' un modello tridimensionale che si sviluppa lungo tre assi ortogonali. Due assi sul piano orizzontale riguardano la cromaticità: l'asse \textbf{a} si estende nel verde (-a) al rosso (+a)
+        \subsubsection{Modello CIE L*a*b*}
+        Il modello CIE L*a*b*, è un'evoluzione del modello CIE XYZ. È un modello tridimensionale che si sviluppa lungo tre assi ortogonali. Due assi sul piano orizzontale riguardano la cromaticità: l'asse \textbf{a} si estende nel verde (-a) al rosso (+a)
         e l'asse \textbf{b} dal blu (-b) al giallo (+b); un asse verticale riguarda la luminosità o luminanza \textbf{L} che diminuisce dal basso verso l'alto.
         Questo particolare spazio colore include tutti i colori percepibili e quindi anche tutto il gamut degli spazi RGB e CMYK ed è indipendente dal dispositivo che li rappresenta.
         Essendo quindi molto più simile al modo in cui l'essere umano riesce a percepire i colori, questo spazio colore si presta particolarmente bene quando si devono individuare le differenze percettive all'interno di più immagini.
@@ -200,14 +206,15 @@
     \end{figure}
 
     \subsubsection{Dal neurone biologico a quello artificiale}
+    
     Per riprodurre artificialmente il cervello umano occorre realizzare
     una rete di elementi molto semplici in grado di imparare e generalizzare.
     Tipicamente, il neurone artificiale ha molti ingressi ed una sola uscita.
     Per determinate la conducibilità e quindi l'importanza del canale di ingresso, ogni neurone ha associato un peso. 
-    L’attivazione del neurone è una funzione della somma pesata degli ingressi. 
+    L’attivazione del neurone è una funzione della somma pesata degli ingressi.\\[1in]
     Il metodo più usato per addestrare una rete neurale consiste nel presentare
-    in ingresso alla rete un insieme di esempi (training set). La risposta fornita
-    dalla rete per ogni esempio viene confrontata con la risposta desiderata, si
+    in ingresso alla rete un insieme di esempi (training set). 
+    La risposta fornita dalla rete per ogni esempio viene confrontata con la risposta desiderata, si
     valuta la differenza (errore) fra le due e, in base a tale differenza, si
     aggiustano i pesi cercando di ottenere il risultato desiderato.
     \begin{figure}[h]
@@ -220,22 +227,17 @@
     Il valore assoluto di un peso rappresenta la forza della connessione. 
     L’uscita, cioè il segnale con cui il neurone trasmette la sua attività
     all’esterno, è calcolata applicando la funzione di attivazione alla somma
-    pesata degli ingressi. 
-    \begin {center}
-    \Large $$y = f(\sum_{i=1}^{n}w_i x_i) $$
-    \end{center}
-    \newpage
+    pesata degli ingressi:
+    
+    $$y = f(\sum_{i=1}^{n}w_i x_i)$$
+
     \subsection{Perceptron}
     Un perceptron è una rete neurale ad un singolo livello che si dimostra molto utile nei problemi di classificazione.
     In generale è composto da una serie $x_1, ..., x_n$ di inputs a cui sono associati dei pesi $w_1, ..., w_n$. 
     Vi è poi una funzione che si occupa di sommare i prodotti dei valori di input e dei rispettivi pesi. 
     Il risultato passa infine per una funzione di attivazione che genera l'output.
-    \begin{figure}[h]
-        \centering
-        \includegraphics{perceptron.jpg}
-        \caption{"Perceptron"}
-    \end{figure}
-  
+
+    \newpage
     \subsubsection{Addestramento del perceptron}
     Per addestrare un perceptron bisogna realizzare un training set adeguato per il problema che si vuole risolvere. 
     Dopo aver predisposto il dataset è necessario seguire i seguenti passi:
