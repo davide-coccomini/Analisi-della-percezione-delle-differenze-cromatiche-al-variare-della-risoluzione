@@ -10,17 +10,17 @@
     \usepackage{relsize}
     \usepackage{titling}
     \usepackage{fancyhdr}
-    \usepackage{lipsum} % for filler text
+    \usepackage{lipsum} 
     \addbibresource{ref.bib}
     \graphicspath{ {images/} }
 
     \lstset { %
         language=C++,
-        frame=tb, % draw a frame at the top and bottom of the code block
-        backgroundcolor=\color{lightgray}, % set backgroundcolor
-        basicstyle=\footnotesize,% basic font setting
-        numbers=left, % display line numbers on the left
-        tabsize=4, % tab space width
+        frame=tb, 
+        backgroundcolor=\color{lightgray}, 
+        basicstyle=\footnotesize,
+        numbers=left, 
+        tabsize=4, 
         breaklines=true,
     }
 
@@ -54,11 +54,10 @@
     }
     \posttitle{\end{center}}
     \title{\textbf{UNIVERSITA DEGLI STUDI DI PISA} \\[0.4in]
-        Tesi di Laurea \\
     Scuola di Ingegneria \\
     Dipartimento di Ingegneria dell’Informazione \\
-    A.A. 2018/2019\\[1in]
-    Sviluppo di una rete neurale per il riconoscimento delle differenze percettive su un set di immagini alla ricerca della minima risoluzione necessaria per la loro individuazione\\[0.5in]}
+    A.A. 2018/2019\\[0.7in]
+    Sviluppo di una rete neurale per il riconoscimento delle differenze percettive su un set di immagini alla ricerca della minima qualità necessaria per l'indivudazione\\[0.5in]}
     \date{}
     
     \definecolor{mygreen}{rgb}{0,0.6,0}
@@ -86,45 +85,35 @@
         \tableofcontents
         \newpage
         \section{Introduzione}
-        Lorem ipsum dolor sit amet, consectetur adipisci elit, 
-        sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-        Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-        nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat
-        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    
+        \lipsum[1-3]
+        \newpage
         \section{Colorimetria}
         La colorimetria è la disciplina che si occupa di normalizzare la misurazione del colore attraverso lo studio dei modelli di colore.
         \subsection{Lo spettro visibile}
-        Lo “spettro del visibile” si trova nella parte centrale dello spettro ottico, il quale
-        comprende anche i raggi infrarossi e quelli ultravioletti. E’ composto da quella parte di
-        spettro elettromagnetico che include tutte le colorazioni percepite dall’occhio umano,
-        partendo dal rosso fino ad arrivare al viola.
-        La colorimetria utilizza la percentuale della luce incidente che è stata riflessa (%R) compresa
-        nell'intervallo del visibile (400-700 nm) per descrivere il colore dell'oggetto. Applicazioni
-        particolari quali la misurazione della fluorescenza, del bianco ed i colori mimetici prendono in
-        considerazione anche le radiazioni UV (350-400nm) e NIR (700-1300nm). Ciascun oggetto
+        Tutte le colorazioni percepite dall’occhio umano compongono lo “spettro del visibile” che si trova nella parte centrale dello spettro ottico, il quale
+        comprende anche i raggi infrarossi e quelli ultravioletti. 
+        La colorimetria utilizza la percentuale della luce incidente che è stata riflessa compresa
+        nell'intervallo del visibile (400-700 nm) per descrivere il colore dell'oggetto. Ciascun oggetto
         colorato viene pertanto definito da una curva di riflettanza, similmente alle impronte digitali
         nell’uomo. 
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.3]{colorimetria3}
+            \includegraphics[scale=0.45]{colorimetria3}
             \caption{"Lo spettro visibile"}
         \end{figure}
         \newpage
         \subsection{Percezione del colore}
         Il colore nasce dalla luce. La luce che colpisce un oggetto viene parzialmente assorbita a
-        seconda del colore. La parte non assorbita viene riflessa e trasmessa ai recettori cromatici
+        seconda del materiale che lo compone. La parte non assorbita viene riflessa e trasmessa ai recettori cromatici
         all’interno dell’occhio umano. Questi ultimi trasformano la luce assorbita in impulsi che
         percorrono le vie nervose fino a raggiungere il cervello, dove vengono interpretati: nasce così
         un’impressione cromatica. Dal punto di vista prettamente biologico il colore si genera pertanto
         nell’occhio dell’osservatore e costituisce un’impressione sensoriale.
-
-        A proposito di impressione sensoriale: ciascun individuo "percepisce" il colore in modo
-        differente. Tale fenomeno non è riconducibile solamente al fatto che non esistono mai due occhi
-        uguali tra loro. Anche l’interpretazione del colore varia infatti da individuo ad individuo.
+        Proprio perché nella percezione del colore vengono coinvolte componenti biologiche, ciascun individuo "percepisce" il colore in modo
+        differente. Tale fenomeno può essere ricondotto sia al fatto che non esistono mai due occhi
+        uguali tra loro sia al fatto che l’interpretazione del colore varia da individuo ad individuo.
         Perfino la stessa persona può percepire differentemente il colore in momenti diversi ed in base
-        allo stato d’animo. Il colore stesso può pertanto generare sensazioni differenti. 
+        allo stato d’animo. E' quindi molto complesso definire in maniera oggettiva un colore.
 
         \begin{figure}[h]
             \centering
@@ -133,15 +122,15 @@
         \end{figure}
         \newpage
         \subsection{Modello CIE XYZ}
-        Il modello CIE XYZ rappresenta tutti i colori caratterizzati da tre parametri: luminosità, tinta e purezza. Tinta e purezza rappresentano la cromaticità del colore. 
-        Del solido viene solitamente rappresentata soltanto la sezione secondo il piano XY, in cui X ed Y indicano la cromaticità e la luminanza non viene rappresentata.
+        Il modello CIE XYZ rappresenta tutti i colori caratterizzati da tre parametri: luminosità, tinta e purezza, rappresentati attraverso un solido. 
+        Del solido viene solitamente rappresentata soltanto la sezione secondo il piano XY, in cui X ed Y indicano la cromaticità (tinta e purezza) mentre la luminanza non viene rappresentata.
         \begin{figure}[h]
             \centering
             \includegraphics[scale=0.2]{CIEXYZ.png}
             \caption{"Spazio colore CIE XYZ"}
         \end{figure}
-        \\Questo spazio colore si basa sui valori di tristimolo, cioè dei parametri che definiscono il modo in cui l'essere umano percepire i colori. 
-        I valori tristimolo di un colore con una distribuzione di potenza spettrale $ I(\lambda)$  sono date in termini di un osservatore standard da:
+        \\Questo spazio colore si basa sui valori di tristimolo, cioè dei parametri che definiscono il modo in cui l'essere umano percepisce i colori. 
+        I valori tristimolo di un colore con una distribuzione di potenza spettrale $I(\lambda)$  sono date in termini di un osservatore standard da:
 
         \begin{itemize}      
             \item[] \Large $X = \bigint_0^\infty I(\lambda)\,\overline{x}(\lambda)\,d\lambda$
@@ -153,41 +142,51 @@
         \newpage
 
         \subsection{Modello CIE L*a*b*}
-        Il Modello CIE L*a*b*, è un'evoluzione del modello CIE XYZ. E' un modello tridimensionale che si sviluppa lungo tre assi ortogonali. Due assi sul piano orizzontale riguardano la cromaticità: l'ase a si estende nel verde (-a) al rosso (+a)
-        e l'asse b dal blu (-b) al giallo (+b); un asse verticale riguarda la luminosità o luminanza (L) che diminuisce dal basso verso l'alto.
+        Il modello CIE L*a*b*, è un'evoluzione del modello CIE XYZ. E' un modello tridimensionale che si sviluppa lungo tre assi ortogonali. Due assi sul piano orizzontale riguardano la cromaticità: l'asse \textbf{a} si estende nel verde (-a) al rosso (+a)
+        e l'asse \textbf{b} dal blu (-b) al giallo (+b); un asse verticale riguarda la luminosità o luminanza \textbf{L} che diminuisce dal basso verso l'alto.
         Questo particolare spazio colore include tutti i colori percepibili e quindi anche tutto il gamut degli spazi RGB e CMYK ed è indipendente dal dispositivo che li rappresenta.
         Essendo quindi molto più simile al modo in cui l'essere umano riesce a percepire i colori, questo spazio colore si presta particolarmente bene quando si devono individuare le differenze percettive all'interno di più immagini.
 
     
         \begin{figure}[h]
             \centering
-            \includegraphics[scale=0.8]{CIELAB.jpg}
+            \includegraphics[scale=0.6]{CIELAB.jpg}
             \caption{"Spazio colore CIE L*a*b*"}
         \end{figure}
 
     \newpage
-
+    \subsection{Risoluzione e compressione}
+    La risoluzione di un'immagine corrisponde al numero di pixel per pollice che contiene, indicata con il termine in DPI (punti per pollice). 
+    Un maggior numero di dpi si traduce in una maggiore quantità di informazioni e quindi in una migliore qualità dell'immagine. 
+    Ovviamente, maggiore è il numero di informazioni che un'immagine contiene, maggiore sarà il peso del file. 
+    Per questa ragione sono state sviluppate alcune tecniche di compressione tra cui quella JPEG. Questa tecnica stabilisce due metodi di compressione di base,
+    uno basato sull'uso della trasformata discreta del coseno, con compressione di tipo "lossy" e cioè con perdita di informazione, e l'altro sull'uso di un metodo predittivo
+    con compressione di tipo lossless, cioè senza perdita di informazione. La perdita di informazioni durante la compressione può compromettere drasticamente la qualità dell'immagine.
+    \begin{figure}[h]
+        \centering
+        \includegraphics[scale=0.7]{jpeg.png}
+        \caption{"Esempio di compressione JPEG"}
+    \end{figure}
+   
+    \newpage
     \section {Reti Neurali}
     \subsection {Reti neurali e cervello umano}
-    Le reti neurali artificiali sono nate per riprodurre attività tipiche del
-    cervello umano come la percezione di immagini, il riconoscimento di
-    forme, la comprensione del linguaggio, il coordinamento senso-motorio e molto altro.
-    A tale scopo si sono studiate le caratteristiche del cervello umano. 
-    Nel sistema nervoso esistono miliardi di neuroni (cellule nervose). Un
+    Le reti neurali artificiali sono nate per emulare attività tipiche del
+    cervello umano. Risultano quindi molto utili per risolvere problemi di riconoscimento delle immagini o del linguaggio umano.
+    Per riuscire ad emulare questi comportamenti ci si è quindi ispirati al funzionamento del cervello umano.
+    Nel sistema nervoso esistono miliardi di neuroni. Un
     neurone è formato da un corpo cellulare e da molti prolungamenti
     ramificati, detti dendriti, attraverso i quali il neurone riceve segnali
     elettrici da altri neuroni. Ogni neurone ha anche un prolungamento
     filamentoso chiamato assone. All’estremità l’assone si ramifica formando terminali
-    attraverso i quali i segnali elettrici vengono trasmessi ad altre cellule (ad
-    esempio ai dendriti di altri neuroni). Tra un terminale di un assone e la
-    cellula ricevente esiste uno spazio. I segnali superano questo spazio per
+    attraverso i quali i segnali elettrici vengono trasmessi ad altre cellule.
+    Tra un terminale di un assone e la cellula ricevente esiste uno spazio. I segnali superano questo spazio per
     mezzo di sostanze chimiche dette neurotrasmettitori. Il punto di
     connessione tra terminale e dendrite è detto sinapsi. 
     Un neurone si “attiva”, cioè trasmette un impulso elettrico lungo il suo
     assone quando si verifica una differenza di potenziale elettrico tra l’interno
     e l’esterno della cellula. L’impulso elettrico provoca la liberazione di un
-    neurotrasmettitore dai terminali dell’assone, che a loro volta possono, ad
-    esempio, influenzare altri neuroni. 
+    neurotrasmettitore dai terminali dell’assone, che a loro volta possono influenzare altri neuroni. 
         
     \begin{figure}[h]
         \centering
@@ -197,17 +196,15 @@
 
     \subsubsection{Dal neurone biologico a quello artificiale}
     Per riprodurre artificialmente il cervello umano occorre realizzare
-    una rete di elementi molto semplici che sia una struttura distribuita,
-    massicciamente parallela, capace di apprendere e quindi di generalizzare
+    una rete di elementi molto semplici in grado di imparare e generalizzare.
     Tipicamente, il neurone artificiale ha molti ingressi ed una sola uscita.
-    Ogni ingresso ha associato un peso, che determina la conducibilità del
-    canale di ingresso. L’attivazione del neurone è una funzione della somma
-    pesata degli ingressi. 
+    Per determinate la conducibilità e quindi l'importanza del canale di ingresso, ogni neurone ha associato un peso. 
+    L’attivazione del neurone è una funzione della somma pesata degli ingressi. 
     Il metodo più usato per addestrare una rete neurale consiste nel presentare
     in ingresso alla rete un insieme di esempi (training set). La risposta fornita
     dalla rete per ogni esempio viene confrontata con la risposta desiderata, si
     valuta la differenza (errore) fra le due e, in base a tale differenza, si
-    aggiustano i pesi.
+    aggiustano i pesi cercando di ottenere il risultato desiderato.
     \begin{figure}[h]
         \centering
         \includegraphics{neurone.jpg}
@@ -220,28 +217,20 @@
     all’esterno, è calcolata applicando la funzione di attivazione alla somma
     pesata degli ingressi. 
     \begin {center}
-    $$y = f(\sum_{i=1}^{n}w_i x_i) $$
+    \Large $$y = f(\sum_{i=1}^{n}w_i x_i) $$
     \end{center}
-
+    \newpage
     \subsection{Perceptron}
-    In molte applicazioni si incontrano problemi di classificazione di un
-    insieme di oggetti, cioè occorre associare ogni oggetto alla classe corretta.
-    Supponiamo di voler classificare in due classi distinte oggetti rappresentati
-    mediante punti nel piano. Se le due classi sono linearmente separabili,
-    possiamo usare una rete neurale che approssima una retta di separazione
-    tra le due classi. Un oggetto sarà quindi classificato rappresentandolo
-    come punto nel piano ed assegnandolo a quella delle due classi individuata
-    dal semipiano in cui cade il punto. 
-    Tale classificazione può essere facilmente ottenuta addestrando una rete
-    neurale con due ingressi ed un solo neurone di uscita con funzione di
-    attivazione a soglia:
+    Un perceptron è una rete neurale ad un singolo livello che si dimostra molto utile nei problemi di classificazione.
+    In generale è composto da una serie $x_1, ..., x_n$ di inputs a cui sono associati dei pesi $w_1, ..., w_n$. 
+    Vi è poi una funzione che si occupa di sommare i prodotti dei valori di input e dei rispettivi pesi. 
+    Il risultato passa infine per una funzione di attivazione che genera l'output.
     \begin{figure}[h]
         \centering
         \includegraphics{perceptron.jpg}
         \caption{"Perceptron"}
     \end{figure}
-    Tale rete è un esempio di perceptron, costituito da più ingressi confluenti in un neurone di uscita.
-
+  
     \subsubsection{Addestramento del perceptron}
     Per addestrare un perceptron bisogna realizzare un training set adeguato per il problema che si vuole risolvere. 
     Dopo aver predisposto il dataset è necessario seguire i seguenti passi:
@@ -255,19 +244,19 @@
     In particolare la delta rule è una regola usata per aggiustare i valori dei pesi di un neurone andando alla ricerca di quelli più adeguati.
     Dati $t$ ed $y$, rispettivamente, l'uscita desiderata e l'uscita neurale, l'errore $\delta$ è dato da:
     $$ \delta = t-y $$
-    Fissato un numero reale $\eta$ compreso tra 0 e 1 detto learning rate, la delta rule stabilisce che la variazione delg enerico peso $\Delta w_i$ è:
+    Fissato un numero reale $\eta$ compreso tra 0 e 1 detto learning rate, la delta rule stabilisce che la variazione del generico peso $\Delta w_i$ è:
     $$ \Delta w_i = \eta \delta x_i $$
 
     Dopo l’addestramento la rete viene testata controllandone il comportamento su un insieme di dati, detto test set, non utilizzati durante la fase di training. La fase di test ha quindi lo scopo 
     di valutare la capacità di generalizzazione della rete neurale.
-    \newpage
+
 
     \section{Obiettivo}
-    L'individuazione delle differenze percettive all'interno di un dataset di immagini è uno dei grandi problemi dell'industria della colorimetria moderna che ha la necessità di emulare il 
+    L'individuazione delle differenze percettive tra due o più immagini è uno dei grandi problemi dell'industria della colorimetria moderna che ha la necessità di emulare il 
     comportamento umano nella percezione dei colori. E' infatti spesso necessario riprodurre un materiale o un tessuto partendo da un originale, nel tentativo di emularlo il più fedelmente possibile. 
     Per fare ciò, sono stati realizzati macchinari in grado di acquisire immagini ad alta definizione dei soggetti originali e di quelli riprodotti così da poterli confrontare attraverso indici matematici più o meno precisi (ad esempio SSIM) 
     nel tentativo di identificare eventuali differenze percettive. Ovviamente, sia per l'acquisizione che per il confronto tra immagini ad alta definizione, sono necessari tempi e costi non indifferenti che sarebbero abbattuti se questi processi potessero avvenire a risoluzioni più basse.
-    Lo scopo di questa ricerca è quindi quello di realizzare una rete neurale che sia in grado di identificare le differenze tra le immagini e sfruttarla per capire qual'è la minima risoluzione e qualità che le immagini devono possedere affinché queste differenze siano individuabili.
+    Lo scopo di questa ricerca è quindi quello di realizzare una rete neurale che sia in grado di identificare le differenze tra le immagini e sfruttarla per capire qual è la minima risoluzione e qualità che le immagini devono possedere affinché queste differenze siano individuabili.
 
     \newpage
 
@@ -283,10 +272,10 @@
     \end{figure}
     \\In particolare le elaborazioni sono state:
     \begin{enumerate}
-        \item Per ogni immagine nel dataset iniziale è stata generata un'immagine in una risoluzione minore o uguale (4K, 3K, 2K, 1K, 720p, 480p) ed un'immagine compressa in jpg con un livello di compressione variabile (0\%, 20\%, 40\%, 60\%, 80\%, 100\%);
-        \item Per ogni immagine generata al punto 1 è stato applicato un filtro blur su 8 intensità diverse.
+        \item Per ogni immagine nel dataset iniziale è stata generata un'immagine in una risoluzione minore o uguale (4K, 3K, 2K, 1K, 720p, 480p) ed un'immagine compressa in JPEG con un livello di compressione variabile (0\%, 20\%, 40\%, 60\%, 80\%, 100\%);
+        \item Per ogni immagine generata al punto 1 è stato applicato un filtro blur (sfocatura) su 8 intensità diverse.
     \end{enumerate}
-    Questo procedimento ha così generato circa 3960 immagini, utilizzabili per addestrare e testare la rete.
+    Questo procedimento ha così generato 3960 immagini, utilizzabili per addestrare e testare la rete.
     
     \newpage
     \begin{figure}[h]
@@ -300,27 +289,26 @@
     Per ottenere il risultato precedentemente descritto è stato sviluppato un programma in C++ sfruttando la libreria OpenCV.
     Per ogni file nella directory delle immagini vengono prima generate le immagini compresse e le rispettive immagini filtrate:
     \begin{lstlisting}[language=C++]
-        for (int i = 0; i <= 100; i += 20) {
-				cout << "Compressing image " << fileName << " of " << i << "%" << endl;
-				std::vector<int> params;
-				params.push_back(CV_IMWRITE_JPEG_QUALITY);
-				params.push_back(100 - i + i%100); 
-				string format = (i==0) ? ".tif" : ".jpg";
-				string newPath = basePath + "compressed/"+to_string(i)+"/" + fileName + format;
+    for (int i = 0; i <= 100; i += 20) {
+			cout << "Compressing image " << fileName << " of " << i << "%" << endl;
+			std::vector<int> params;
+			params.push_back(CV_IMWRITE_JPEG_QUALITY);
+			params.push_back(100 - i + i%100); 
+			string format = (i==0) ? ".tif" : ".jpg";
+			string newPath = basePath + "compressed/"+to_string(i)+"/" + fileName + format;
 
-				if (i == 0)
-					copyFile(filePath, newPath);
-				else
-					imwrite(newPath, imageOriginal, params);
+			if (i == 0)
+				copyFile(filePath, newPath);
+			else
+				imwrite(newPath, imageOriginal, params);
 
-				for (int intensity = 10; intensity <= 80; intensity += 10) {
-					cout << "Blurring image " << fileName << " with intensity " << intensity << endl;
-					Mat imageFiltered = applyFilter(newPath, "blur", intensity);
-					string newPathFiltered = basePath + "compressed/" + to_string(i) + "/" + explode(fileName, '_')[0] + "_B" + to_string(intensity/10) + format;
-					imwrite(newPathFiltered, imageFiltered);
-				}
-				
+			for (int intensity = 10; intensity <= 80; intensity += 10) {
+				cout << "Blurring image " << fileName << " with intensity " << intensity << endl;
+				Mat imageFiltered = applyFilter(newPath, "blur", intensity);
+				string newPathFiltered = basePath + "compressed/" + to_string(i) + "/" + explode(fileName, '_')[0] + "_B" + to_string(intensity/10) + format;
+				imwrite(newPathFiltered, imageFiltered);
 			}
+	}
     \end{lstlisting}
     \newpage
     Successivamente viene effettuato un procedimento simile per tutte le risoluzioni necessarie:
@@ -351,44 +339,32 @@
     Di seguito vengono riportati alcuni esempi di immagini generate con il precedente procedimento le cui differenze sono facilmente percepibili ad occhio nudo.
     \begin{figure}[h]
         \centering
-        \includegraphics[scale=0.365]{compressione}
+        \includegraphics[scale=0.325]{compressione}
         \caption{"Esempio di compressione"}
     \end{figure}
     
     \begin{figure}[h]
         \centering
-        \includegraphics[scale=0.365]{blur}
+        \includegraphics[scale=0.325]{blur}
         \caption{"Esempio di applicazione del filtro"}
     \end{figure}
     \subsubsection{Conversione nello spazio colore CIE L*a*b*}
     Le immagini del dataset sono inizialmente nello spazio RGB ma poiché si vuole cercare di simulare la percezione dell'occhio umano,
-    si effettua la conversione nello spazio CIE L*a*b* utilizzando la libreria ImageMagick e convertendo tutte le immagini compresse e trasformate 
-    in formato JPG in TIF, un formato capace di memorizzare immagini in questo spazio colore.
+    si effettua la conversione nello spazio CIE L*a*b* utilizzando la libreria ImageMagick e convertendo tutte le immagini compresse con metodo JPEG in TIF, un formato capace di memorizzare immagini in questo spazio colore.
     \newpage
 
-    \section{Addestramento della rete}
-    Lorem ipsum dolor sit amet, consectetur adipisci elit, 
-    sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-    nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    \subsection{Addestramento della rete}
+    \lipsum[1-3]
+
+    \newpage
     \section{Test}
-    Lorem ipsum dolor sit amet, consectetur adipisci elit, 
-    sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-    nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    \lipsum[1-3]
 
     \newpage
     \section{Conclusioni} 
-    Lorem ipsum dolor sit amet, consectetur adipisci elit, 
-    sed eiusmod tempor incidunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-    nisi ut aliquid ex ea commodi consequatur. Quis aute iure reprehenderit in voluptate
-    velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat
-    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    \lipsum[1-3]
 
-
+    \newpage
+    \section{Ringraziamenti}
+    \lipsum[1-3]
     \end{document}

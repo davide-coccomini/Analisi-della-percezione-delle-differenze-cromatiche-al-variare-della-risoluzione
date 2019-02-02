@@ -4,40 +4,44 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduzione}{3}{section.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Colorimetria}{3}{section.2}
+\contentsline {section}{\numberline {2}Colorimetria}{4}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Lo spettro visibile}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Lo spettro visibile}{4}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Percezione del colore}{4}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Percezione del colore}{5}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Modello CIE XYZ}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Modello CIE XYZ}{6}{subsection.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Modello CIE L*a*b*}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Modello CIE L*a*b*}{7}{subsection.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Reti Neurali}{7}{section.3}
+\contentsline {subsection}{\numberline {2.5}Risoluzione e compressione}{8}{subsection.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Reti neurali e cervello umano}{7}{subsection.3.1}
+\contentsline {section}{\numberline {3}Reti Neurali}{9}{section.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Dal neurone biologico a quello artificiale}{7}{subsubsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1}Reti neurali e cervello umano}{9}{subsection.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Perceptron}{8}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.1.1}Dal neurone biologico a quello artificiale}{9}{subsubsection.3.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Addestramento del perceptron}{9}{subsubsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2}Perceptron}{11}{subsection.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Obiettivo}{10}{section.4}
+\contentsline {subsubsection}{\numberline {3.2.1}Addestramento del perceptron}{11}{subsubsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Svolgimento}{11}{section.5}
+\contentsline {section}{\numberline {4}Obiettivo}{12}{section.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Creazione del dataset}{11}{subsection.5.1}
+\contentsline {section}{\numberline {5}Svolgimento}{13}{section.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Codice C++}{13}{subsubsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1}Creazione del dataset}{13}{subsection.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2}Esempi}{15}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.1}Codice C++}{15}{subsubsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.3}Conversione nello spazio colore CIE L*a*b*}{15}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.2}Esempi}{17}{subsubsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Addestramento della rete}{16}{section.6}
+\contentsline {subsubsection}{\numberline {5.1.3}Conversione nello spazio colore CIE L*a*b*}{17}{subsubsection.5.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Test}{16}{section.7}
+\contentsline {subsection}{\numberline {5.2}Addestramento della rete}{18}{subsection.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Conclusioni}{17}{section.8}
+\contentsline {section}{\numberline {6}Test}{19}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Conclusioni}{20}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Ringraziamenti}{21}{section.8}

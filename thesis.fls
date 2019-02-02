@@ -245,6 +245,11 @@ INPUT ./images/CIELAB.jpg
 INPUT ./images/CIELAB.jpg
 INPUT ./images/CIELAB.jpg
 INPUT ./images/CIELAB.jpg
+INPUT images/jpeg.png
+INPUT ./images/jpeg.png
+INPUT ./images/jpeg.png
+INPUT ./images/jpeg.png
+INPUT ./images/jpeg.png
 INPUT images/cervello.jpg
 INPUT ./images/cervello.jpg
 INPUT ./images/cervello.jpg

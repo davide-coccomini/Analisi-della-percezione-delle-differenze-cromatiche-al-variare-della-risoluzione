@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.21)  2 FEB 2019 00:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.21)  2 FEB 2019 16:34
 entering extended mode
 **c:/Users/user/Documents/GitHub/thesis/thesis.tex
 (c:/Users/user/Documents/GitHub/thesis/thesis.tex
@@ -791,7 +791,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 y"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 74.
+Package hyperref Info: Option `colorlinks' set `true' on input line 73.
 Package biblatex Info: Trying to load language 'italian'...
 Package biblatex Info: ... file 'italian.lbx' found.
 
@@ -808,22 +808,22 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Info: Redefining \it@ocap on input line 76.
-LaTeX Info: Redefining \it@ccap on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
+LaTeX Font Info:    ... okay on input line 75.
+LaTeX Info: Redefining \it@ocap on input line 75.
+LaTeX Info: Redefining \it@ccap on input line 75.
 
 
 File italian.ldf warning: 
@@ -831,7 +831,7 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 76.
+italian.ldf    on input line 75.
 
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
@@ -844,10 +844,10 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'thesis.bbl' not found.
 No file thesis.bbl.
-Package biblatex Info: Reference section=0 on input line 76.
-Package biblatex Info: Reference segment=0 on input line 76.
+Package biblatex Info: Reference section=0 on input line 75.
+Package biblatex Info: Reference segment=0 on input line 75.
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring ON on input line 76.
+Package hyperref Info: Link coloring ON on input line 75.
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref.st
 y"
@@ -859,9 +859,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count403
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 75.
+LaTeX Info: Redefining \pageref on input line 75.
+LaTeX Info: Redefining \nameref on input line 75.
  (thesis.out) (thesis.out)
 \@outlinefile=\write5
 \openout5 = `thesis.out'.
@@ -900,16 +900,16 @@ G,.JBIG2,.JB2,.eps]
 )
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 81.
+less on input line 80.
 
 
 Package Fancyhdr Warning: \fancyfoot's `E' option without twoside option is use
-less on input line 82.
+less on input line 81.
 
-<images/logo.png, id=83, 287.0725pt x 293.095pt>
+<images/logo.png, id=91, 287.0725pt x 293.095pt>
 File: images/logo.png Graphic file (type png)
 <use images/logo.png>
-Package pdftex.def Info: images/logo.png  used on input line 84.
+Package pdftex.def Info: images/logo.png  used on input line 83.
 (pdftex.def)             Requested size: 114.82695pt x 117.23592pt.
 [1
 
@@ -918,139 +918,132 @@ o.png>] (thesis.toc)
 \tf@toc=\write6
 \openout6 = `thesis.toc'.
 
- [2]
-<images/colorimetria3.jpg, id=141, 1204.5pt x 644.4075pt>
+ [2] [3]
+<images/colorimetria3.jpg, id=157, 803.0pt x 312.16624pt>
 File: images/colorimetria3.jpg Graphic file (type jpg)
 <use images/colorimetria3.jpg>
-Package pdftex.def Info: images/colorimetria3.jpg  used on input line 111.
-(pdftex.def)             Requested size: 361.35278pt x 193.32373pt.
+Package pdftex.def Info: images/colorimetria3.jpg  used on input line 101.
+(pdftex.def)             Requested size: 361.34666pt x 140.47351pt.
 
-Overfull \hbox (1.35278pt too wide) in paragraph at lines 111--112
+Overfull \hbox (1.34666pt too wide) in paragraph at lines 101--102
  [][] 
  []
 
-[3 <./images/colorimetria3.jpg>]
-<images/colorimetria1.jpg, id=148, 374.5995pt x 284.262pt>
+[4 <./images/colorimetria3.jpg>]
+<images/colorimetria1.jpg, id=163, 421.3341pt x 286.1892pt>
 File: images/colorimetria1.jpg Graphic file (type jpg)
 <use images/colorimetria1.jpg>
-Package pdftex.def Info: images/colorimetria1.jpg  used on input line 131.
-(pdftex.def)             Requested size: 299.68001pt x 227.4099pt.
- [4 <./images/colorimetria1.jpg>]
-<images/CIEXYZ.png, id=154, 1144.275pt x 1264.725pt>
+Package pdftex.def Info: images/colorimetria1.jpg  used on input line 120.
+(pdftex.def)             Requested size: 337.06773pt x 228.95164pt.
+ [5 <./images/colorimetria1.jpg>]
+<images/CIEXYZ.png, id=169, 1144.275pt x 1264.725pt>
 File: images/CIEXYZ.png Graphic file (type png)
 <use images/CIEXYZ.png>
-Package pdftex.def Info: images/CIEXYZ.png  used on input line 140.
+Package pdftex.def Info: images/CIEXYZ.png  used on input line 129.
 (pdftex.def)             Requested size: 228.85094pt x 252.94052pt.
- [5 <./images/CIEXYZ.png>]
-<images/CIELAB.jpg, id=165, 401.5pt x 354.32375pt>
+ [6 <./images/CIEXYZ.png>]
+<images/CIELAB.jpg, id=180, 598.235pt x 526.96875pt>
 File: images/CIELAB.jpg Graphic file (type jpg)
 <use images/CIELAB.jpg>
-Package pdftex.def Info: images/CIELAB.jpg  used on input line 164.
-(pdftex.def)             Requested size: 321.20042pt x 283.45938pt.
- [6 <./images/CIELAB.jpg>]
-<images/cervello.jpg, id=171, 496.85625pt x 160.80075pt>
+Package pdftex.def Info: images/CIELAB.jpg  used on input line 153.
+(pdftex.def)             Requested size: 358.94377pt x 316.18369pt.
+ [7 <./images/CIELAB.jpg>]
+<images/jpeg.png, id=187, 510.90875pt x 391.4625pt>
+File: images/jpeg.png Graphic file (type png)
+<use images/jpeg.png>
+Package pdftex.def Info: images/jpeg.png  used on input line 167.
+(pdftex.def)             Requested size: 357.63368pt x 274.02187pt.
+ [8 <./images/jpeg.png>]
+<images/cervello.jpg, id=193, 496.85625pt x 160.80075pt>
 File: images/cervello.jpg Graphic file (type jpg)
 <use images/cervello.jpg>
-Package pdftex.def Info: images/cervello.jpg  used on input line 194.
+Package pdftex.def Info: images/cervello.jpg  used on input line 193.
 (pdftex.def)             Requested size: 347.797pt x 112.55974pt.
-<images/neurone.jpg, id=172, 295.70474pt x 160.80075pt>
+<images/neurone.jpg, id=194, 295.70474pt x 160.80075pt>
 File: images/neurone.jpg Graphic file (type jpg)
 <use images/neurone.jpg>
-Package pdftex.def Info: images/neurone.jpg  used on input line 213.
+Package pdftex.def Info: images/neurone.jpg  used on input line 210.
 (pdftex.def)             Requested size: 295.70401pt x 160.80034pt.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 216.
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 213.
 
-[7 <./images/cervello.jpg>]
-<images/perceptron.jpg, id=179, 330.63525pt x 103.587pt>
+[9 <./images/cervello.jpg>] [10 <./images/neurone.jpg>]
+<images/perceptron.jpg, id=206, 330.63525pt x 103.587pt>
 File: images/perceptron.jpg Graphic file (type jpg)
 <use images/perceptron.jpg>
-Package pdftex.def Info: images/perceptron.jpg  used on input line 240.
+Package pdftex.def Info: images/perceptron.jpg  used on input line 230.
 (pdftex.def)             Requested size: 330.63445pt x 103.58675pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[8 <./images/neurone.jpg>] [9 <./images/perceptron.jpg>] [10]
-<images/dataset.jpg, id=200, 1004.553pt x 399.894pt>
+ [11 <./images/perceptron.jpg>] [12]
+<images/dataset.jpg, id=221, 1004.553pt x 399.894pt>
 File: images/dataset.jpg Graphic file (type jpg)
 <use images/dataset.jpg>
-Package pdftex.def Info: images/dataset.jpg  used on input line 281.
+Package pdftex.def Info: images/dataset.jpg  used on input line 270.
 (pdftex.def)             Requested size: 366.66646pt x 145.96313pt.
 
-Overfull \hbox (6.66646pt too wide) in paragraph at lines 281--282
+Overfull \hbox (6.66646pt too wide) in paragraph at lines 270--271
  [][] 
  []
 
-[11 <./images/dataset.jpg>]
-<images/generazione.png, id=208, 452.69125pt x 481.8pt>
+[13 <./images/dataset.jpg>]
+<images/generazione.png, id=230, 452.69125pt x 481.8pt>
 File: images/generazione.png Graphic file (type png)
 <use images/generazione.png>
-Package pdftex.def Info: images/generazione.png  used on input line 294.
+Package pdftex.def Info: images/generazione.png  used on input line 283.
 (pdftex.def)             Requested size: 362.15349pt x 385.4405pt.
 
-Overfull \hbox (2.15349pt too wide) in paragraph at lines 294--295
+Overfull \hbox (2.15349pt too wide) in paragraph at lines 283--284
  [][] 
  []
 
-[12 <./images/generazione.png>]
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 303.
+[14 <./images/generazione.png>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 292.
 
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <9> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 303.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 303.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 292.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 292.
 
 
 ("C:\Users\user\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 303.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 292.
 
-[13] [14]
-<images/compressione.jpg, id=270, 1083.04625pt x 445.665pt>
+[15] [16]
+<images/compressione.jpg, id=290, 1083.04625pt x 445.665pt>
 File: images/compressione.jpg Graphic file (type jpg)
 <use images/compressione.jpg>
-Package pdftex.def Info: images/compressione.jpg  used on input line 354.
-(pdftex.def)             Requested size: 395.31686pt x 162.66977pt.
-
-Overfull \hbox (35.31686pt too wide) in paragraph at lines 354--355
- [][] 
- []
-
-<images/blur.jpg, id=271, 1083.04625pt x 445.665pt>
+Package pdftex.def Info: images/compressione.jpg  used on input line 342.
+(pdftex.def)             Requested size: 351.98586pt x 144.8394pt.
+<images/blur.jpg, id=291, 1083.04625pt x 445.665pt>
 File: images/blur.jpg Graphic file (type jpg)
 <use images/blur.jpg>
-Package pdftex.def Info: images/blur.jpg  used on input line 360.
-(pdftex.def)             Requested size: 395.31686pt x 162.66977pt.
-
-Overfull \hbox (35.31686pt too wide) in paragraph at lines 360--361
- [][] 
- []
-
-[15 <./images/compressione.jpg> <./images/blur.jpg>] [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 394.
- [17]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 394.
+Package pdftex.def Info: images/blur.jpg  used on input line 348.
+(pdftex.def)             Requested size: 351.98586pt x 144.8394pt.
+ [17 <./images/compressione.jpg> <./images/blur.jpg>] [18] [19]
+[20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
+ [21]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
  (thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 394.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 394.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2E913D7F239C97DF2A156278E95BB386;1305.
+(rerunfilecheck)             Checksum: 872C29A2881975C332430CAE4F57CBE9;1447.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24572 strings out of 492973
- 434737 string characters out of 3127135
- 878197 words of memory out of 3000000
- 28120 multiletter control sequences out of 15000+200000
+ 24585 strings out of 492973
+ 434906 string characters out of 3127135
+ 975328 words of memory out of 3000000
+ 28126 multiletter control sequences out of 15000+200000
  544426 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  40i,13n,63p,865b,1463s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1073,9 +1066,9 @@ a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
 b><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmsy9.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
 c/amsfonts/cm/cmtt9.pfb>
-Output written on thesis.pdf (17 pages, 1735761 bytes).
+Output written on thesis.pdf (21 pages, 2346382 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 389 PDF objects out of 1000 (max. 8388607)
+ 104 named destinations out of 1000 (max. 500000)
+ 242 words of extra memory for PDF output out of 10000 (max. 10000000)
 
