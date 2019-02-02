@@ -1,0 +1,20 @@
+\BOOKMARK [1][-]{section.1}{Introduzione}{}% 1
+\BOOKMARK [1][-]{section.2}{Colorimetria}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Lo spettro visibile}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Percezione del colore}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Modello CIE XYZ}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Modello CIE L*a*b*}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Reti Neurali}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Reti neurali e cervello umano}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Dal neurone biologico a quello artificiale}{subsection.3.1}% 9
+\BOOKMARK [2][-]{subsection.3.2}{Perceptron}{section.3}% 10
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Addestramento del perceptron}{subsection.3.2}% 11
+\BOOKMARK [1][-]{section.4}{Obiettivo}{}% 12
+\BOOKMARK [1][-]{section.5}{Svolgimento}{}% 13
+\BOOKMARK [2][-]{subsection.5.1}{Creazione del dataset}{section.5}% 14
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Codice C++}{subsection.5.1}% 15
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Esempi}{subsection.5.1}% 16
+\BOOKMARK [3][-]{subsubsection.5.1.3}{Conversione nello spazio colore CIE L*a*b*}{subsection.5.1}% 17
+\BOOKMARK [1][-]{section.6}{Addestramento della rete}{}% 18
+\BOOKMARK [1][-]{section.7}{Test}{}% 19
+\BOOKMARK [1][-]{section.8}{Conclusioni}{}% 20
