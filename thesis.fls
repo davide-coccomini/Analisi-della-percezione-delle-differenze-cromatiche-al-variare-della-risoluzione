@@ -248,6 +248,8 @@ INPUT ./images/jpeg.png
 INPUT ./images/jpeg.png
 INPUT ./images/jpeg.png
 INPUT ./images/jpeg.png
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
 INPUT images/cervello.jpg
 INPUT ./images/cervello.jpg
 INPUT ./images/cervello.jpg
@@ -258,11 +260,6 @@ INPUT ./images/neurone.jpg
 INPUT ./images/neurone.jpg
 INPUT ./images/neurone.jpg
 INPUT ./images/neurone.jpg
-INPUT images/dataset.jpg
-INPUT ./images/dataset.jpg
-INPUT ./images/dataset.jpg
-INPUT ./images/dataset.jpg
-INPUT ./images/dataset.jpg
 INPUT images/generazione.png
 INPUT ./images/generazione.png
 INPUT ./images/generazione.png
@@ -270,24 +267,49 @@ INPUT ./images/generazione.png
 INPUT ./images/generazione.png
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr9.tfm
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt9.tfm
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy9.tfm
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omlcmr.fd
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omlcmr.fd
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi9.tfm
-INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
-INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
-INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy9.tfm
+INPUT images/filtri.jpg
+INPUT ./images/filtri.jpg
+INPUT ./images/filtri.jpg
+INPUT ./images/filtri.jpg
+INPUT ./images/filtri.jpg
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT images/compressione.jpg
-INPUT ./images/compressione.jpg
-INPUT ./images/compressione.jpg
-INPUT ./images/compressione.jpg
-INPUT ./images/compressione.jpg
-INPUT images/blur.jpg
-INPUT ./images/blur.jpg
-INPUT ./images/blur.jpg
-INPUT ./images/blur.jpg
-INPUT ./images/blur.jpg
+INPUT images/reteneurale.jpg
+INPUT ./images/reteneurale.jpg
+INPUT ./images/reteneurale.jpg
+INPUT ./images/reteneurale.jpg
+INPUT ./images/reteneurale.jpg
+INPUT images/confronto.png
+INPUT ./images/confronto.png
+INPUT ./images/confronto.png
+INPUT ./images/confronto.png
+INPUT ./images/confronto.png
+INPUT images/chart1.png
+INPUT ./images/chart1.png
+INPUT ./images/chart1.png
+INPUT ./images/chart1.png
+INPUT ./images/chart1.png
+INPUT images/labssim.png
+INPUT ./images/labssim.png
+INPUT ./images/labssim.png
+INPUT ./images/labssim.png
+INPUT ./images/labssim.png
+INPUT images/chart2.png
+INPUT ./images/chart2.png
+INPUT ./images/chart2.png
+INPUT ./images/chart2.png
+INPUT ./images/chart2.png
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstlang1.sty
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/tex/latex/listings/lstlang1.sty
+INPUT images/confusion1.jpg
+INPUT ./images/confusion1.jpg
+INPUT ./images/confusion1.jpg
+INPUT ./images/confusion1.jpg
+INPUT ./images/confusion1.jpg
 INPUT thesis.aux
 INPUT ./thesis.out
 INPUT ./thesis.out
@@ -301,6 +323,8 @@ INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb
@@ -311,6 +335,8 @@ INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT C:/Users/user/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
