@@ -1,0 +1,83 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {italian}{}
+\babel@toc {italian}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introduzione}{5}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Colorimetria}{6}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Lo spettro visibile}{6}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.1.1}Percezione del colore}{7}{subsubsection.2.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Spazio colore}{8}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Modello CIE XYZ}{8}{subsubsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.2}Modello CIE L*a*b*}{9}{subsubsection.2.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Risoluzione e compressione}{10}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.3.1}Esempi di risoluzione}{11}{subsubsection.2.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Reti Neurali}{12}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Reti neurali e cervello umano}{12}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.1.1}Dal neurone biologico a quello artificiale}{12}{subsubsection.3.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Perceptron}{13}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {3.2.1}Addestramento del perceptron}{14}{subsubsection.3.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Svolgimento}{15}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.1}Creazione del dataset}{15}{subsection.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.1}Codice C++}{16}{subsubsection.4.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.1.2}Esempi di applicazione dei filtri}{17}{subsubsection.4.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.2}Feature Extraction}{18}{subsection.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.1}Preparazione degli input e degli output}{18}{subsubsection.4.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.2}Estrazione dei dati dalle immagini}{18}{subsubsection.4.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.3}Codice C++}{20}{subsubsection.4.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.4}Preparazione degli output}{21}{subsubsection.4.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.5}Esempio di risposta della rete}{22}{subsubsection.4.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.2.6}Esempi di valutazioni da parte dell'osservatore}{23}{subsubsection.4.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.3}Considerazioni preliminari}{24}{subsection.4.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.1}Analisi dei giudizi dell'osservatore}{24}{subsubsection.4.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.2}Calcolo del Lab-SSIM}{25}{subsubsection.4.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.3.3}Analisi dei risultati ottenuti con il Lab-SSIM}{26}{subsubsection.4.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4}Addestramento della rete}{27}{subsection.4.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.4.1}Valutazione delle prestazioni}{28}{subsubsection.4.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5}Feature selection}{29}{subsection.4.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.1}Analisi dei risultati}{30}{subsubsection.4.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.5.2}Undersampling e oversampling}{31}{subsubsection.4.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.6}Addestramento a seguito della feature selection}{32}{subsection.4.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.6.1}Classificatore Ensemble}{33}{subsubsection.4.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {4.6.2}Valutazione delle prestazioni del classificatore ensemble}{35}{subsubsection.4.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Test}{36}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Conclusioni}{37}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Ringraziamenti}{38}{section.7}
